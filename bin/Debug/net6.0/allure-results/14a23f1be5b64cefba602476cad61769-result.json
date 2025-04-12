@@ -1,0 +1,61 @@
+{
+  "uuid": "bad608e1-668e-479f-a37b-98c741522b42",
+  "historyId": "8050bd9d89da31923ac733c05503f12c",
+  "testCaseId": "aa89de601e98d86923d644b513c6c666",
+  "fullName": "AppSoftware-Project:AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.Login()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-56IVPSS"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "AppSoftware_Project.API_Perfomance_Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "Login"
+    },
+    {
+      "name": "testClass",
+      "value": "APIPerfomanceTest"
+    }
+  ],
+  "links": [],
+  "name": "Login",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1735735686405,
+      "stop": 1735735691488
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1735735686394,
+  "stop": 1735735691491
+}

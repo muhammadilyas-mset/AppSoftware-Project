@@ -1,0 +1,58 @@
+  _   _   ____                        _                       ____              
+ | \ | | | __ )    ___    _ __ ___   | |__     ___   _ __    | ___|             
+ |  \| | |  _ \   / _ \  | '_ ` _ \  | '_ \   / _ \ | '__|   |___ \             
+ | |\  | | |_) | | (_) | | | | | | | | |_) | |  __/ | |       ___) |            
+ |_| \_| |____/   \___/  |_| |_| |_| |_.__/   \___| |_|      |____/             
+                                                                                
+13:42:50 [INF] NBomber "5.8.2" started a new session: "2025-01-01_08.42.98_session_2533e8b6"
+13:42:51 [INF] NBomber started as single node
+13:42:51 [INF] License validation....
+13:42:51 [WRN] THIS VERSION IS FREE ONLY FOR PERSONAL USE. You can't use it for an 
+organization.
+13:42:51 [INF] Reports folder: "C:\Users\pc\source\repos\AST-Proj\AppSoftware-Project\AppSoftware-Project\bin\D
+ebug\net6.0\LoadRunReport"
+13:42:51 [INF] Plugin loaded: "HttpMetricsPlugin"
+13:42:51 [INF] Reporting sinks: no reporting sinks were loaded
+13:42:51 [INF] Starting init...
+13:42:51 [INF] Start init plugin: "HttpMetricsPlugin"
+13:42:51 [INF] Target scenarios: "Load Validation"
+13:42:51 [INF] Init finished
+13:42:51 [INF] Starting bombing...
+13:44:01 [INF] Stopping scenarios...
+13:44:01 [INF] Calculating final statistics...
+
+────────────────────────────────── test info ───────────────────────────────────
+
+test suite: nbomber_default_test_suite_name
+test name: nbomber_default_test_name
+session id: 2025-01-01_08.42.98_session_2533e8b6
+
+──────────────────────────────── scenario stats ────────────────────────────────
+
+scenario: Load Validation
+  - ok count: 266
+  - fail count: 0
+  - all data: 0 MB
+  - duration: 00:01:00
+
+load simulations: 
+  - ramping_constant, copies: 50, during: 00:01:00
+
+┌─────────────────────────┬────────────────────────────────────────────────────┐
+│                    step │ ok stats                                           │
+├─────────────────────────┼────────────────────────────────────────────────────┤
+│                    name │ global information                                 │
+│           request count │ all = 266, ok = 266, RPS = 4.4                     │
+│            latency (ms) │ min = 1955.73, mean = 6144.17, max = 11254.29,     │
+│                         │ StdDev = 2598.24                                   │
+│ latency percentile (ms) │ p50 = 6516.74, p75 = 8773.63, p95 = 9682.94, p99 = │
+│                         │ 9977.86                                            │
+└─────────────────────────┴────────────────────────────────────────────────────┘
+
+───────────────────────────────── plugin stats ─────────────────────────────────
+
+
+13:44:01 [INF] Reports saved in folder: "C:\Users\pc\source\repos\AST-Proj\AppSoftware-Project\AppSoftware-Project\bin\D
+ebug\net6.0\LoadRunReport"
+13:44:01 [WRN] THIS VERSION IS FREE ONLY FOR PERSONAL USE. You can't use it for an 
+organization.

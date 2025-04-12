@@ -1,0 +1,14 @@
+2025-01-01 15:16:39.036 +05:00 [INF] [ThreadId:15] NBomber 5.8.2 started a new session: 2025-01-01_10.16.96_session_70f87c44
+2025-01-01 15:16:39.080 +05:00 [INF] [ThreadId:15] NBomber started as single node
+2025-01-01 15:16:39.082 +05:00 [INF] [ThreadId:15] License validation....
+2025-01-01 15:16:39.083 +05:00 [WRN] [ThreadId:15] THIS VERSION IS FREE ONLY FOR PERSONAL USE. You can't use it for an organization.
+2025-01-01 15:16:39.095 +05:00 [INF] [ThreadId:15] Reports folder: C:\Users\pc\source\repos\AST-Proj\AppSoftware-Project\AppSoftware-Project\bin\Debug\net6.0\LoadRunReport
+2025-01-01 15:16:39.097 +05:00 [INF] [ThreadId:15] Plugin loaded: HttpMetricsPlugin
+2025-01-01 15:16:39.097 +05:00 [INF] [ThreadId:15] Reporting sinks: no reporting sinks were loaded
+2025-01-01 15:16:39.098 +05:00 [INF] [ThreadId:15] Starting init...
+2025-01-01 15:16:39.103 +05:00 [INF] [ThreadId:15] Start init plugin: HttpMetricsPlugin
+2025-01-01 15:16:39.113 +05:00 [INF] [ThreadId:15] Target scenarios: Load
+2025-01-01 15:16:39.117 +05:00 [INF] [ThreadId:15] Init finished
+2025-01-01 15:16:39.129 +05:00 [INF] [ThreadId:15] Starting warm up...
+2025-01-01 15:16:39.129 +05:00 [INF] [ThreadId:15] Warm up for scenarios: Load
+2025-01-01 15:16:39.132 +05:00 [INF] [ThreadId:15] Warm up duration: 00:00:30

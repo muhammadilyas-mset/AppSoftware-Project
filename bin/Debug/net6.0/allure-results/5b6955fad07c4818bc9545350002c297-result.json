@@ -1,0 +1,70 @@
+{
+  "uuid": "8eb1a767-aaf1-4409-9411-4d19ee1298a9",
+  "historyId": "8050bd9d89da31923ac733c05503f12c",
+  "testCaseId": "aa89de601e98d86923d644b513c6c666",
+  "fullName": "AppSoftware-Project:AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.Login()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-56IVPSS"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "AppSoftware_Project.API_Perfomance_Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "Login"
+    },
+    {
+      "name": "testClass",
+      "value": "APIPerfomanceTest"
+    }
+  ],
+  "links": [],
+  "name": "Login",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TimeoutException : Timeout 30000ms exceeded.\nCall log:\n  -   - waiting for Locator(\"//h2[normalize-space()='Account Services']\")",
+    "trace": "   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Core.Frame.InnerTextAsync(String selector, FrameInnerTextOptions options) in /_/src/Playwright/Core/Frame.cs:line 410\r\n   at AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.Login() in C:\\Users\\pc\\source\\repos\\AST-Proj\\AppSoftware-Project\\AppSoftware-Project\\API_Perfomance_Test\\APIPerfomanceTest.cs:line 43\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Login",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Timeout 30000ms exceeded.\nCall log:\n  -   - waiting for Locator(\"//h2[normalize-space()='Account Services']\")",
+        "trace": "System.TimeoutException: Timeout 30000ms exceeded.\nCall log:\n  -   - waiting for Locator(\"//h2[normalize-space()='Account Services']\")\r\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at Microsoft.Playwright.Core.Frame.InnerTextAsync(String selector, FrameInnerTextOptions options) in /_/src/Playwright/Core/Frame.cs:line 410\r\n   at AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.Login() in C:\\Users\\pc\\source\\repos\\AST-Proj\\AppSoftware-Project\\AppSoftware-Project\\API_Perfomance_Test\\APIPerfomanceTest.cs:line 43\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsync(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1735720924963,
+      "stop": 1735720969801
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1735720924955,
+  "stop": 1735720969806
+}

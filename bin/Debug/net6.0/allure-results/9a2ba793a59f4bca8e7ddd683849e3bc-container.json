@@ -1,0 +1,12 @@
+{
+  "uuid": "0b5fc16b-67b3-4ea2-b39b-a7398273bd2f",
+  "name": "AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.LoginPerformanceTest",
+  "children": [
+    "23453ef6-8d3d-458b-be43-8adf914eb18d"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1735718691110,
+  "stop": 1735718695020
+}

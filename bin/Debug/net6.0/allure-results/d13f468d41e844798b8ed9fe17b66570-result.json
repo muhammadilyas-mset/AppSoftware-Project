@@ -1,0 +1,52 @@
+{
+  "uuid": "23453ef6-8d3d-458b-be43-8adf914eb18d",
+  "historyId": "07843ec8503aeaab9adda92b2e4295a3",
+  "testCaseId": "0e0650606c4a221d4d6789b4a3abf4f9",
+  "fullName": "AppSoftware-Project:AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.LoginPerformanceTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MTBTSCO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "AppSoftware_Project.API_Perfomance_Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginPerformanceTest"
+    },
+    {
+      "name": "testClass",
+      "value": "APIPerfomanceTest"
+    }
+  ],
+  "links": [],
+  "name": "LoginPerformanceTest",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.Playwright.PlaywrightException : Executable doesn't exist at C:\\Users\\Lenovo\\AppData\\Local\\ms-playwright\\chromium-1148\\chrome-win\\chrome.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     pwsh bin/Debug/netX/playwright.ps1 install             ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+    "trace": "   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal)\r\n   at Microsoft.Playwright.Core.BrowserType.LaunchAsync(BrowserTypeLaunchOptions options) in /_/src/Playwright/Core/BrowserType.cs:line 56\r\n   at AppSoftware_Project.API_Perfomance_Test.APIPerfomanceTest.LoginPerformanceTest() in D:\\FAST MS-SPM\\Course AST\\Final Project\\Final Project\\ilyas Final\\AppSoftware-Project\\AppSoftware-Project\\API_Perfomance_Test\\APIPerfomanceTest.cs:line 64\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1735718691110,
+  "stop": 1735718695018
+}
